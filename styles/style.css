@@ -1,6 +1,3 @@
-/* Убрал в content__list hidden из overflow, оставил auto,
-но так и не разобрался зачем, так как в таком случае не увязать с макетом */
-
 .content {
   display: flex;
   justify-content: center;
@@ -229,10 +226,6 @@
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 4px;
-}
-
-.search-form__textfield:active {
-  border: none;
 }
 
 .search-form__textfield::placeholder {
